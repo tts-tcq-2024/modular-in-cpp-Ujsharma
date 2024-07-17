@@ -1,6 +1,5 @@
 #ifndef COLORCODER_H // Corrected header guard name
 #define COLORCODER_H
-
 #include <string>
 
 namespace TelCoColorCoder {
@@ -34,22 +33,16 @@ namespace TelCoColorCoder {
         // Method to convert ColorPair to string
         std::string ToString();
     };
-
     // Function to get ColorPair from pair number
     ColorPair GetColorFromPairNumber(int pairNumber);
-
     // Function to get pair number from MajorColor and MinorColor
     int GetPairNumberFromColor(MajorColor major, MinorColor minor);
-
     // Function prototypes for testing functions
     void testNumberToPair(int pairNumber,
                           TelCoColorCoder::MajorColor expectedMajor,
                           TelCoColorCoder::MinorColor expectedMinor);
-
     void testPairToNumber(TelCoColorCoder::MajorColor major,
                           TelCoColorCoder::MinorColor minor,
                           int expectedPairNumber);
-
 } // namespace TelCoColorCoder
-
 #endif // COLORCODER_H
