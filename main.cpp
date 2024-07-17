@@ -1,4 +1,5 @@
 #include "colorcoder.h"
+#include <iostream>
 
 namespace TelCoColorCoder {
 
