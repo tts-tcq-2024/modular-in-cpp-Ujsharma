@@ -1,4 +1,4 @@
-#include "main.hpp"
+#include "colorcoder.h"
 #include <gtest/gtest.h>
 
 using namespace TelCoColorCoder;
