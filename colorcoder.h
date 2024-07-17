@@ -14,6 +14,7 @@ namespace TelCoColorCoder {
     
     // Number of MajorColors (assuming it's the count of enum values)
     const int numberOfMajorColors = 5;
+    const int numberOfMinorColors = 5;
 
     // Class ColorPair definition
     class ColorPair {
