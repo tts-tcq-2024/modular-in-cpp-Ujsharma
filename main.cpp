@@ -14,11 +14,5 @@ int main() {
     testPairToNumber(TelCoColorCoder::BLACK, TelCoColorCoder::ORANGE, 12);
     testPairToNumber(TelCoColorCoder::VIOLET, TelCoColorCoder::SLATE, 25);
 
-    // Optionally print the reference manual
-    /*
-    std::string manual = TelCoColorCoder::GetReferenceManual();
-    std::cout << manual;
-    */
-
     return 0;
 }
