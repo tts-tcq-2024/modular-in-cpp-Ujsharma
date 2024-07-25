@@ -1,11 +1,14 @@
-#include <iostream>
-#include <assert.h>
-#include "colorcoder.h"
+#ifndef TEST_COLORCODER_HPP
+#define TEST_COLORCODER_HPP
+
+#include "colorcoder.hpp"
 
 void testNumberToPair(int pairNumber,
-                          TelCoColorCoder::MajorColor expectedMajor,
-                          TelCoColorCoder::MinorColor expectedMinor);
+                      TelCoColorCoder::MajorColor expectedMajor,
+                      TelCoColorCoder::MinorColor expectedMinor);
 
 void testPairToNumber(TelCoColorCoder::MajorColor major,
-                          TelCoColorCoder::MinorColor minor,
-                          int expectedPairNumber);
+                      TelCoColorCoder::MinorColor minor,
+                      int expectedPairNumber);
+
+#endif // TEST_COLORCODER_HPP
