@@ -1,6 +1,7 @@
 #include <iostream>
 #include <assert.h>
 #include "colorcoder.h"
+#include "NumPairConversion.hpp"
 
 
 int main() {
