@@ -3,8 +3,8 @@
 #include "colorcoder.h"
 
 void testNumberToPair(int pairNumber,
-    TelCoColorCoder::MajorColor expectedMajor,
-    TelCoColorCoder::MinorColor expectedMinor);
+                          TelCoColorCoder::MajorColor expectedMajor,
+                          TelCoColorCoder::MinorColor expectedMinor);
 
 void testPairToNumber(TelCoColorCoder::MajorColor major,
                           TelCoColorCoder::MinorColor minor,
